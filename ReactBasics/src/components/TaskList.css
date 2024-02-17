@@ -14,9 +14,8 @@
 .tasklist button.trigger{
     border: 0px;
     border-radius: 5px;
-    background-color: var(  --theme-button);
     color: blue;
-    padding: 5px 10px;
+    padding: 3px 8px;
     cursor: pointer;
     background-color: skyblue;
 }
@@ -24,4 +23,9 @@
     background-color:greenyellow;
     border-width: 1px solid;
 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    
 }
